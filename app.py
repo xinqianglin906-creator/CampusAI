@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # ========== 在這裡貼上你的 API Key ==========
 API_KEY = API_KEY = st.secrets["OPENROUTER_API_KEY"]
-MODEL_NAME = "qwen/qwen-2.5-7b-instruct:free"
+MODEL_NAME = "meta-llama/llama-3.2-3b-instruct:free"
 
 client = OpenAI(
     api_key=API_KEY,
