@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # ========== 在這裡貼上你的 API Key ==========
-API_KEY = "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"
+API_KEY = "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"
 MODEL_NAME = "openrouter/free"
 
 client = OpenAI(
