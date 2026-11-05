@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # ========== 在這裡貼上你的 API Key ==========
 API_KEY = API_KEY = st.secrets["OPENROUTER_API_KEY"]
-MODEL_NAME = "google/gemma-4-31b-it:free"
+MODEL_NAME = "openrouter/free"
 
 client = OpenAI(
     api_key=API_KEY,
