@@ -2,8 +2,8 @@ import streamlit as st
 from openai import OpenAI
 
 # ========== 在這裡貼上你的 API Key ==========
-API_KEY = "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"
-MODEL_NAME = "openrouter/free"
+API_KEY = "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"
+MODEL_NAME = "meta-llama/llama-3.1-8b-instruct:free"
 
 client = OpenAI(
     api_key=API_KEY,
