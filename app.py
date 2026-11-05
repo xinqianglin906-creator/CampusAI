@@ -7,7 +7,11 @@ MODEL_NAME = "meta-llama/llama-3.1-8b-instruct:free"
 
 client = OpenAI(
     api_key=API_KEY,
-    base_url="https://openrouter.ai/api/v1"
+    base_url="https://openrouter.ai/api/v1",
+    default_headers={
+        "HTTP-Referer": "https://campusai.streamlit.app",
+        "X-Title": "CampusAI"
+    }
 )
 
 st.set_page_config(page_title="嶺南大學新生導航助手", page_icon="🎓")
