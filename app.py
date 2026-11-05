@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # ========== 在這裡貼上你的 API Key ==========
 API_KEY = API_KEY = st.secrets["OPENROUTER_API_KEY"]
-MODEL_NAME = "meta-llama/llama-3.1-8b-instruct:free"
+MODEL_NAME = "google/gemini-2.0-flash-exp:free"
 
 client = OpenAI(
     api_key=API_KEY,
